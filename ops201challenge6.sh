@@ -18,7 +18,7 @@ robdirArr=(cat.txt dog.txt)
     
     # using [ expression ] syntax and in place 
     # of File.txt you can write your file name 
-    if [[ -f cat.txt ]] | [[ -f dog.txt ]] 
+    if [[ -f cat.txt ]] | [[ -f dog.txt ]]  
     then
     # if file exist the it will be printed 
 
