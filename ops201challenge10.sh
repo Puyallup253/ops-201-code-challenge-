@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script Name:                 code challenge 9
+# Script Name:                 code challenge 10
 # Author:                       Robert Gillespie
 # Date of latest revision:      5/5/2023
 # Purpose:  Write a set of Powershell commands that fetch info about running processes, open processes, and close processes.                   
