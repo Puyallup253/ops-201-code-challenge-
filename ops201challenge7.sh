@@ -12,6 +12,7 @@
 # Width
 
 # Declaration of variables
+hostname -f
 cpu_items=("product" "vendor" "physical id" "bus info" "width")
 ram_items=("description" "physical id" "size")
 display_items=("description" "product" "vendor" "physical id" "bus info" "width" "clock" "capabilities" "configuration" "resources")
