@@ -13,11 +13,10 @@ New-NetFirewallRule -DisplayName "Allow ICMPv4-In" -Direction Inbound -Protocol 
 
 
 #Enable Remote management
-Get-Service WinRM
+Enable-PSRemoting
 
 #Remove bloatware
-Get-AppxPackage | where-object {$_.name –notlike "*store*" -and $_.publisher –notlike "*Microsoft*"} | Remove-AppxPackage
-
+iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
 
 #Enable Hyper-V
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
