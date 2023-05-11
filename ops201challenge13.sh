@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script Name:                 code challenge 12
+# Script Name:                 code challenge 13
 # Author:                       Robert Gillespie
 # Date of latest revision:      5/10/2023
 # Purpose: Provide Domain information
